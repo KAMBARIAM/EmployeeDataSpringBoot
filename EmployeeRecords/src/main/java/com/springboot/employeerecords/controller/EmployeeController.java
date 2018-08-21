@@ -31,8 +31,7 @@ public class EmployeeController {
 	@PostMapping("/add")
     public Employee addEmployee(@RequestBody Employee emp)
     {
-		empRepo.save(emp);
-		return emp;    	
+		return empRepo.save(emp);
     }
 	
 	@GetMapping("/{id}")
@@ -50,8 +49,7 @@ public class EmployeeController {
 	@PutMapping("/update")
 	public Employee updateEmployee(@RequestBody Employee emp)
 	{
-		empRepo.save(emp);
-		return emp;
+		return empRepo.save(emp);
 	}
 	
 	@DeleteMapping("/delete/{id}")

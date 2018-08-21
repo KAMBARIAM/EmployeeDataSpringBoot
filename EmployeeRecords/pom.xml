@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboottry-1</name>
+	<name>employeerecords</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
